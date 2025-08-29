@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "charliermarsh.ruff",
+    "ms-python.debugpy",
+    "streetsidesoftware.code-spell-checker",
+    "ms-vscode.test-adapter-converter",
+    "ms-python.pytest",
+    "eamodio.gitlens"
+  ]
+}

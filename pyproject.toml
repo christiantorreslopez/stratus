@@ -1,0 +1,52 @@
+[project]
+name = "stratus"
+version = "0.1.0"
+description = ""
+authors = []
+requires-python = ">=3.11"
+dependencies = []
+
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+# Enable critical rules from CLAUDE.md
+select = [
+    "E",    # pycodestyle errors
+    "W",    # pycodestyle warnings
+    "F",    # pyflakes
+    "I001", # import sorting
+    "N",    # pep8-naming
+    "UP",   # pyupgrade
+    "B",    # flake8-bugbear
+    "C4",   # flake8-comprehensions
+    "SIM",  # flake8-simplify
+]
+
+ignore = ["E501"]
+
+[tool.ruff.lint.pep8-naming]
+# Enforce naming conventions from CLAUDE.md
+# snake_case for functions/variables (default)
+# PascalCase for classes (default)
+# UPPER_SNAKE_CASE for constants (default)
+
+[tool.ruff.format]
+# Use double quotes for strings (ruff default)
+quote-style = "double"
+# Prefer breaking strings with parentheses
+docstring-code-format = true
+
+[dependency-groups]
+dev = [
+    "pre-commit",
+    "pytest",
+    "ruff",
+]
+
+[tool.ruff.lint.isort]
+# Import sorting configuration
+force-single-line = false
+split-on-trailing-comma = true
