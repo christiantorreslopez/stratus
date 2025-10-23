@@ -13,6 +13,14 @@ Coding is creating instructions for computers using programming languages to sol
 
 Programming languages, like human languages, are a way for us to communicate with computers. They have their own grammar and vocabulary.
 
+## A Note on AI
+
+Here are my opinions on AI, and my recommendation to all students of programming:
+
+1. AI is here to stay, explore AI coding tools and find one that fits your needs
+2. AI can be very beneficial to learning when used responsibly. Coding is primarily a practice & muscle-memory skill in the beginning. Do not substitute coding exercises with AI generated code.
+3. AI writes excellent code at times, and terrible code at other times. Only your journey to improving your coding "sense" can help you differentiate.
+
 ## What is Python
 
 Python is a popular programming language. It was created in 1991 by Guido van Rossum.
@@ -24,6 +32,7 @@ Python is a good first language because it's simple and easy to read. It's also 
 VS Code (Visual Studio Code) is a popular code editor developed by Microsoft. It is an application that you can use to write and edit your code.
 
 You'll need to be familiar with 3 parts:
+
 1. The **Explorer**: A view that shows your project files and folders.
 2. The **Editor**: Where you edit your code files.
 3. The **Terminal**: Where you can tell your computer to run commands such as running your code.
@@ -69,6 +78,7 @@ print("Hello World")
 You'll discover many other built-in functions as you learn. Later, you'll create your own!
 
 ## Quotes
+
 You'll notice quotes inside the print function in exercises. Make sure to do this in your exercise. We'll cover this in Chapter 2.
 
 ## Commands
@@ -80,6 +90,7 @@ python path/to/your/file.py
 ```
 
 **Examples:**
+
 - `python src/chapter0/exercise0a.py`
 - `python src/chapter1/exercise1a.py`
 - `python answers/chapter0/answers0a.py`
