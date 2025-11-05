@@ -13,8 +13,8 @@ The most common loop is the **for loop**, which iterates through items in a list
 ```python
 temperatures = [75, 78, 72, 80, 76]
 
-for temp in temperatures:
-    print(temp)
+for anything in temperatures:
+    print(anything)
 ```
 
 This prints:

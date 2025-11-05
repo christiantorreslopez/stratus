@@ -25,7 +25,15 @@ This makes our code reusable - we can check any temperature by calling the funct
 # - If condition equals "rainy": print "Bring an umbrella!"
 # - Else: print "Enjoy the weather!"
 
+def weather_advice(condition):
+    if condition == 'rainy':
+        print("Bring an umbrella!")
+    else:
+        print("Enjoy the weather!")
+
 # Test your function by calling it with different weather conditions like "rainy" and "sunny"
+weather_advice('sunny')
+weather_advice('rainy')
 
 # Example 2: Create a function that gives clothing advice
 # Create a function called 'clothing_advice' that takes a parameter called 'temperature'

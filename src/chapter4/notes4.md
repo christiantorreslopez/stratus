@@ -39,6 +39,8 @@ temperature = 85
 
 if temperature > 80:
     print("It's hot outside!")
+
+print("Random print message that does not pertain to the temperature")
 ```
 
 Just like functions, the code inside the `if` statement must be indented. Python only runs this code when the condition is `True`.

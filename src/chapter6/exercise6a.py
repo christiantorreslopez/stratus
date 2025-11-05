@@ -20,11 +20,17 @@ Now let's practice using for loops!
 """
 
 # Create a list called 'cities' with at least 4 city names
+cities = ["Arlington", "Allen", "Houston", "Round Rock"]
 
 # Use a for loop to print each city
+for city in cities:
+    print(city)
 
 # Create a list called 'weather_conditions' with 5 weather conditions
+weather_conditions = ["rainy", "cloudy", "sunny", "windy", "thunderstorms"]
 
 # Use a for loop to print each weather condition with a message like "Today's weather: sunny"
+for condition in weather_conditions:
+    print("Today's weather: " + condition)
 
 # Using the range() function, print the numbers 1 through 7 (representing days of the week)

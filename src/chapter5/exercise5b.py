@@ -56,7 +56,13 @@ Now let's practice modifying lists!
 # Print the final cities_to_visit list
 
 # Create a list called 'rain_chances' with these values: [20, 40, 60, 30, 10]
+rain_chances = [20, 40, 60, 30, 10]
+rain_chances.append(70)
+rain_chances.remove(60)
 
 # Print the number of days in the rain_chances list
+print(len(rain_chances))
 
 # Check if 60 is in the rain_chances list, if so print "High chance of rain this week!"
+if 60 in rain_chances:
+    print("High chance of rain this week!")

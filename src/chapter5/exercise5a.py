@@ -24,12 +24,16 @@ Now let's practice creating and accessing lists!
 """
 
 # Create a list called 'cities' with at least 4 city names
+cities = ["Arlington", "Allen", "Houston", "Round Rock"]
 
 # Print the entire cities list
+print(cities)
 
 # Print the first city in your list (index 0)
+print(cities[0])
 
 # Print the third city in your list (index 2)
+print(cities[-2])
 
 # Create a list called 'weather_conditions' with at least 5 weather conditions like "sunny", "rainy", etc.
 

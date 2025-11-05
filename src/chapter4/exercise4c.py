@@ -33,7 +33,21 @@ Python checks each condition from top to bottom and runs the first one that's Tr
 # - Elif score is 70 or above: print "Grade: C"
 # - Else: print "Grade: F"
 
+def grade_evaluator(score, exempt):
+    if score >= 90 or exempt:
+        print("Grade: A")
+    elif score >= 80:
+        print("Grade: B")
+    elif score >= 70:
+        print("Grade: C")
+    else:
+        print("Grade: F")
+
 # Test your function by calling it with different scores like 95, 85, 75, and 65
+grade_evaluator(95, False)
+grade_evaluator(85, True)
+grade_evaluator(75, False)
+grade_evaluator(65, True)
 
 # Example 2: Create a weather activity recommender function
 # Create a function called 'activity_recommender' that takes a parameter called 'weather_condition'

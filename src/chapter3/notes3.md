@@ -58,7 +58,7 @@ def convert_to_celsius(fahrenheit):
     return celsius
 
 temp_celsius = convert_to_celsius(75)
-print("75°F is", temp_celsius, "°C")  # Output: 75°F is 23.888... °C
+# print("75°F is", temp_celsius, "°C")  # Output: 75°F is 23.888... °C
 ```
 
 ## Why Create Your Own Functions?
