@@ -33,7 +33,7 @@ Keys are typically strings, but values can be any type:
 houston_weather = {
     "temperature": 85,
     "condition": "sunny",
-    "humidity": 60,
+    "humidity": [60, 50],
     "is_raining": False
 }
 ```
@@ -102,18 +102,23 @@ print(city_temps)  # {"Houston": 85}
 ### keys() - Get all keys
 ```python
 city_temps = {"Houston": 85, "Austin": 82, "Dallas": 88}
-print(city_temps.keys())  # dict_keys(['Houston', 'Austin', 'Dallas'])
+print(city_temps.keys())  # ['Houston', 'Austin', 'Dallas']
 ```
 
 ### values() - Get all values
 ```python
-print(city_temps.values())  # dict_values([85, 82, 88])
+print(city_temps.values())  # [85, 82, 88]
 ```
 
 ### items() - Get all key-value pairs
 ```python
 print(city_temps.items())
-# dict_items([('Houston', 85), ('Austin', 82), ('Dallas', 88)])
+
+[
+    ('Houston', 85),
+    ('Austin', 82),
+    ('Dallas', 88)
+]
 ```
 
 ## Checking for Keys

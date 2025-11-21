@@ -31,10 +31,21 @@ Now let's practice dictionary methods and iteration!
 """
 
 # Create a dictionary called 'weekly_forecast' mapping day names to temperatures
+weekly_forecast = {"Sun": 55, "Mon": 60, "Tue": 65, "Wed": 70, "Thu": 75, "Fri": 80, "Sat": 85}
 
 # Use a for loop to print each day and its temperature
+for day, temp in weekly_forecast.items():
+    print(day, temp)
+
+# print the same result but only using the keys in the loop
+for day in weekly_forecast:
+    print(day, weekly_forecast[day])
 
 # Use .values() to get all the temperatures and calculate the average temperature
+temp_sum = 0
+for temp in weekly_forecast.values():
+    temp_sum += temp
+print(temp_sum/len(weekly_forecast))
 
 # Create a dictionary called 'city_conditions' mapping cities to weather conditions
 

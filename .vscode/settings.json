@@ -14,11 +14,11 @@
   },
 
   // Editor settings matching CLAUDE.md preferences
-  "editor.rulers": [88],
-  "editor.tabSize": 4,
-  "editor.insertSpaces": true,
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
+  // "editor.rulers": [88],
+  // "editor.tabSize": 4,
+  // "editor.insertSpaces": true,
+  // "files.trimTrailingWhitespace": true,
+  // "files.insertFinalNewline": true,
 
   // Git and testing
   "python.testing.pytestEnabled": true,

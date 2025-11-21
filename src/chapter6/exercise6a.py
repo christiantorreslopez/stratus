@@ -9,8 +9,8 @@ in a list without writing repetitive code. Loops make your code shorter and more
 weekly_temps = [75, 78, 72, 80, 76, 74, 71]
 
 # Use a for loop to print each temperature
-for temp in weekly_temps:
-    print("Temperature:", temp)
+# for temp in weekly_temps:
+#     print("Temperature:", temp)
 
 """
 Notice how the loop automatically goes through each item in the list?
@@ -23,14 +23,19 @@ Now let's practice using for loops!
 cities = ["Arlington", "Allen", "Houston", "Round Rock"]
 
 # Use a for loop to print each city
-for city in cities:
-    print(city)
+# for whatever_name in cities:
+#     print(whatever_name)
 
 # Create a list called 'weather_conditions' with 5 weather conditions
 weather_conditions = ["rainy", "cloudy", "sunny", "windy", "thunderstorms"]
 
 # Use a for loop to print each weather condition with a message like "Today's weather: sunny"
-for condition in weather_conditions:
-    print("Today's weather: " + condition)
+# for condition in weather_conditions:
+#     print("Today's weather: " + condition)
 
 # Using the range() function, print the numbers 1 through 7 (representing days of the week)
+for i in range(1,8):
+    print(i)
+
+
+

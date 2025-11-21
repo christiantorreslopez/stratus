@@ -22,13 +22,31 @@ Now let's practice while loops and loop control!
 """
 
 # Create a variable called 'rain_chance' and set it to 100
+rain_chance = 100
 
 # Use a while loop to print the rain chance and decrease it by 10 each time until it's below 50
+while rain_chance >= 50:
+    print(rain_chance)
+    rain_chance -= 10
 
 # Create a list: temperatures = [75, 78, 95, 72, 80, 76]
+temperatures = [75, 78, 95, 72, 80, 76]
 
 # Use a for loop with break: print each temperature, but stop if you find a temperature above 90
+for i in temperatures:
+    if i > 90:
+        print('Loop break')
+        break
+    print('current temperature: ' + str(i))
 
 # Create a list: forecast = [72, -1, 75, 78, -1, 80] (where -1 means no data)
+forecast = [72, -1, 75, 78, -1, 80]
+
+# str(number), int(string)
 
 # Use a for loop with continue: print only valid temperatures (skip -1 values)
+for i in forecast:
+    if i < 0:
+        print('missing value')
+        continue
+    print('valid temp: ' + str(i))
